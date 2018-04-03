@@ -1,0 +1,558 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+}
+.container {
+    width: 90%;
+    margin: auto;
+}
+.coffeePic {
+    background-image: url("../images/home_bg-1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 975px;
+    width: 100%;
+    position: relative;
+}
+.navbar1 {
+    position: absolute;
+    background-color: rgba(59,55,53,0.32);
+    height: 67px;
+    width: 100%;
+}
+.siteLogo {
+    padding: 0 15px;
+}
+.GBParag {
+    padding: 9px;
+}
+.moto-text {
+    font-weight: 400;
+    font-style: italic;
+    font-family: 'EB Garamond', serif;
+    font-size: 34px;
+    line-height: 1;
+    padding-top: 5px;
+}
+.moto-text a {
+    color: #ffffff;
+    font-weight: 400;
+    font-style: italic;
+    text-decoration: none;
+    transition: .3s;
+}
+.siteList {
+    padding: 10px 15px;
+    text-align: right;
+}
+.menu1 {
+    margin-top: 10px;
+}
+.menu1 .menuItem {
+    float: left;
+}
+.menu1 .menuItem .link1 {
+    font-family: 'EB Garamond', serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #d0cdcd;
+    text-decoration: none;
+    border-color: transparent;
+    padding: 0 0 2px;
+    border-width: 0 0 1px;
+    border-style: solid;
+}
+.menu1 .menuItem:not(:first-child) {
+    margin-left: 28px;
+}
+.menu1 .menuItem:hover .link1 {
+    color: #ff6e76;
+    text-decoration: underline;
+    transition: all .3s ease-in-out
+}
+.coffeShop {
+    height: 518px;
+    width: 100%;
+    padding-top: 200px;
+}
+.coffee1 {
+    padding: 0 15px;
+}
+.shopP {
+    padding-bottom: 30px;
+}
+.moto-text1 {
+    text-align: center;
+    font-weight: 400;
+    font-style: italic;
+    font-family: 'EB Garamond', serif;
+    color: #ffffff;
+    font-size: 135px;
+    line-height: 1.1;
+}
+.lineS {
+    padding-top: 10px 0 15px 15px;
+}
+.contentLine {
+    background-image: url("../images/content_line01.png");
+    color: white;
+    background-size: auto;
+    background-position: left;
+    background-repeat: repeat-x;
+    margin-bottom: 15px;
+    height: 10px;
+    width: 570px;
+    margin-left: 260px;
+}
+.moto-text2 {
+    height: 305px;
+    padding-bottom: 100px;
+    position: relative;
+}
+.moto-text2 .moto-text2_1 .moto-parag1 {
+    text-align: center;
+    font-weight: 400;
+    font-family: 'EB Garamond', serif;
+    color: white;
+    font-size: 39px;
+    padding-bottom: 40px;
+}
+.moto-text2 .moto-text2_1 .moto-parag2, .moto-parag3 {
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'EB Garamond', serif;
+    color: white;
+    font-size: 22px;
+    line-height: 1;
+    padding-bottom: 20px;
+}
+.moto-text2 .moto-text2_1 .moto-parag4 {
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'EB Garamond', serif;
+    color: white;
+    font-size: 22px;
+    line-height: 1;
+}
+.products {
+    padding-top: 100px;
+}
+.products .prodParag p {
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'EB Garamond', serif;
+    color: #423930;
+    font-size: 50px;
+    line-height: 1.5;
+}
+.contentLine2 {
+    text-align: center;
+}
+.Categories01 {
+    padding-top: 100px;
+    padding-bottom: 30px;
+    position: relative;
+}
+.column1 {
+    padding: 0 15px;
+}
+.col-sm-4 {
+    min-height: 0;
+}
+.Categories01 .Accessories1 {
+    margin-bottom: 30px;
+    position: relative;
+    background-image: url("../images/home_img-1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 535px;
+}
+.AccParag1 {
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: rgba(0,0,0,0.7);
+    height: 535px;
+}
+.AccParag2 {
+    padding-top: 190px;
+}
+.AccParag2 p {
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'EB Garamond', serif;
+    font-size: 65px;
+    line-height: 1.5;
+}
+.AccParag2 p > a {
+    color: white;
+}
+.AccParag2 p:hover a {
+    text-decoration: none;
+    color: #ff6e76;
+    transition: all .3s ease-in-out;
+}
+.contentLine3 {
+    position: relative;
+    top: -260px;
+    text-align: center;
+    padding: 10px 0;
+}
+.products9 {
+    padding-top: 10px;
+    position: relative;
+    top: -260px;
+}
+.products9 > p{
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'EB Garamond', serif;
+    font-size: 22px;
+    line-height: 1;
+}
+.products9 p > a {
+    color: white;  
+}
+.products9 p:hover > a {
+    text-decoration: none;
+}
+.Categories01 .Accessories2 {
+    margin-bottom: 30px;
+    position: relative;
+    background-image: url("../images/home_img-2.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 535px;
+}
+.Categories01 .Accessories3 {
+    margin-bottom: 30px;
+    position: relative;
+    background-image: url("../images/home_img-3.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 535px;
+}
+.row {
+    margin: 0;
+}
+.OurProducts {
+    padding-bottom: 30px;
+    padding-top: 10px;
+    position: relative;
+}
+.OurProducts .paragProd p {
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'EB Garamond', serif;
+    color: #423930;
+    font-size: 50px;
+    line-height: 1.5;
+}
+.OurProducts .contentLine4 {
+    padding-bottom: 30px;
+    padding-top: 10px;
+    text-align: center;
+}
+.OurProducts .image-block {
+    padding: 0 5px;
+    margin-bottom: 35px;
+    font-family: "PT Sans", sans-serif;
+}
+.OurProducts .image-block .moto-preset {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.OurProducts .image-block .moto-preset a img {
+    top: auto;
+    left: auto;
+    position: static;
+    max-width: 100%;
+    max-height: 100%;
+}
+/* .OurProducts .image-block .moto-preset a:hover {
+    color: #bababa;
+    width: 100%;
+} */
+.image-block p {
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'EB Garamond', serif;
+    color: #423930;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.image-block p a {
+    color: #605346;
+}
+.image-block p:hover a {
+    text-decoration: none;
+    color: #ff6e76;
+}
+.store-product .store-product1 {
+    display: inline-block;
+    margin-left: 50px;
+}
+.store-product .store-product1 span {
+    font-weight: 600;
+    font-style: italic;
+    font-family: 'EB Garamond', serif;
+    font-size: 26px;
+    line-height: 1;
+}
+.store-product .store-product2 {
+    display: inline-block;
+    margin-left: 25px;
+    text-decoration: line-through !important;
+    font-weight: 600;
+    font-style: italic;
+    font-family: 'EB Garamond', serif;
+    color: #ef4b54;
+    font-size: 20px;
+    line-height: 1;
+}
+.add {
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.add a {
+    font-family: 'EB Garamond', serif;
+    font-weight: 500;
+    font-style: normal;
+    background-color: #ff6e76;
+    border: none;
+    padding: 11px 30px;
+    font-size: 14px;
+    text-decoration: none;    
+}
+.add a span {
+    color: white;
+}
+.add a:hover {
+    color: white;
+    background-color: #423930;
+    border-color: #423930;
+    transition: all .3s ease-in-out;
+}
+.addLink {
+    margin-top: 20px;
+}
+.CSSupplies {
+    background-image: url("../images/home_bg-2.jpg");
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 100px;
+    padding-top: 130px;
+    position: relative;
+}
+.column-12 {
+    padding: 0 15px;
+}
+.image-link3 {
+    display: inline-block;
+}
+.cap {
+    text-align: center;
+    margin-top: 80px;
+}
+.coffeeshops {
+    padding: 10px 0;
+    position: relative;
+}
+.coffeeshops .shop-parag1 {
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'EB Garamond', serif;
+    color: white;
+    font-size: 65px;
+    line-height: 1.5;
+}
+.shop-image1,
+.shop-parag2 {
+    padding-bottom: 30px;
+    padding-top: 10px;
+    text-align: center;
+}
+.shop-parag2 .shop-parag2_1 {
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'EB Garamond', serif;
+    color: white;
+    font-size: 26px;
+    line-height: 1.6;
+}
+.shop-link1_0 {
+    position: relative;
+    text-align: center;
+}
+.shop-link1_0 .shop-link1_1 {
+    font-family: 'EB Garamond', serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+    background-color: #ef4b54;
+    padding: 18px 22px;
+}
+.shop-link1_0 a:hover {
+    color: #ffffff;
+    background-color: #605346;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+}
+.column-21 {
+    padding: 0 15px;
+}
+.Testimonials {
+    padding: 100px 0;
+}
+.testimonial-parag1 {
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'EB Garamond', serif;
+    color: #423930;
+    font-size: 50px;
+    line-height: 1.5;
+}
+.testimonial-image {
+    padding: 10px 0;
+    text-align: center;
+}
+.testimonial-parag2 {
+    position: relative;
+    padding-top: 10px;
+}
+.testimonial-parag2_1 {
+    padding: 0 40px 60px 60px;
+    position: relative;
+}
+.testimonial-parag2_11 {
+    padding: 0 16%;
+}
+.testimonial-parag2_2 {
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'EB Garamond', serif;
+    color: #a1a1a1;
+    font-size: 24px;
+    line-height: 1.4;
+}
+.testimonial-parag2_3 {
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'EB Garamond', serif;
+    color: #211f1e;
+    font-size: 26px;
+    line-height: 1.6;
+}
+.testimonial-parag2_4 {
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'EB Garamond', serif;
+    color: #a1a1a1;
+    font-size: 20px;
+    line-height: 1.2;
+}
+.defaultPager {
+    position: absolute;
+    bottom: -38px;
+    text-align: center;
+}
+.cls1 {
+    position: relative;
+}
+.images {
+    width: 100%;
+    height: 337px;
+}
+.images .img_link1 .links {
+    width: 337px;
+    height: 337px;
+    opacity: 1;
+    position: absolute;
+    display: inline-block;
+    overflow: hidden;
+}
+.link01 {
+    top: 0px;
+    left: 0px;
+}
+.images .img_link1 .link01 img {
+    width: 337px;
+    height: 338px;
+}
+.link02 {
+    top: 0px;
+    left: 337px;
+}
+.link03 {
+    top: 0px;
+    left: 674px;
+}
+.link04 {
+    top: 0;
+    left: 1011px;
+}
+.footer, .footer01 {
+    height: 400px;
+}
+.footer01 {
+    background-color: rgb(33, 31, 30);
+}
+.column2 {
+    padding: 10px 15px;
+    position: relative;
+}
+.footParag {
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'EB Garamond', serif;
+    color: white;
+    font-size: 25px;
+    line-height: 1.6;
+    padding-bottom: 40px;
+}
+.footLink {
+    color: white;
+}
+.footLink:hover {
+    text-decoration: none;
+    color: white;
+    transition: .3s;
+}
+.footParag2 {
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'EB Garamond', serif;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 1.2;
+}
+.footLink2 {
+    color: white;
+    text-decoration: underline;
+}
+.footLink2:hover {
+    text-decoration: underline;
+    font-weight: 400;
+    color: #ff6e76;
+    transition: all .3s ease-in-out;
+}
